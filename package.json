@@ -1,0 +1,25 @@
+{
+  "name": "docker-whistle",
+  "version": "0.0.1",
+  "description": "",
+  "scripts": {
+    "start":"./node_modules/.bin/w2 start -p 8888 --storage /etc/whistle"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Muscipular/docker-whistle.git"
+  },
+  "keywords": [
+    "docker",
+    "whistle"
+  ],
+  "author": "muscipular",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Muscipular/docker-whistle/issues"
+  },
+  "homepage": "https://github.com/Muscipular/docker-whistle#readme",
+  "dependencies": {
+    "whistle": "^1.5.2"
+  }
+}
